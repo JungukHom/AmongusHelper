@@ -117,9 +117,7 @@
 
         public void OnMapButtonClicked(MapName name)
         {
-            
-
-            mapImage.sprite = ImageHolder.instance.GetMapImageWithEnum(name);
+            mapImage.sprite = ImageHolder.instance.GetMapImage(name);
         }
 
         public void ResetCrewmates()

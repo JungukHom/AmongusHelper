@@ -66,7 +66,7 @@
         }
 
 
-        public Sprite GetCrewmateImageWithEnum(PlayerColor color)
+        public Sprite GetCrewmateImage(PlayerColor color)
         {
             switch (color)
             {
@@ -103,7 +103,7 @@
             }
         }
 
-        public Sprite GetMapImageWithEnum(MapName name)
+        public Sprite GetMapImage(MapName name)
         {
             switch (name)
             {
